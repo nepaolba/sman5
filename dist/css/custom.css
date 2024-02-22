@@ -125,7 +125,8 @@ h2 {
 
   .skin-black .main-header .navbar .navbar-custom-menu .navbar-nav>li>a,
   .skin-black .main-header .navbar .navbar-right>li>a {
-    border: none
+    border: none;
+    color:#424a4c;
   }
 
   .skin-black .main-header .navbar .nav>li>a:hover,
