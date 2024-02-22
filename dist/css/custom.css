@@ -458,6 +458,7 @@ h2 {
     left: 0;
     text-align: left;
 
+    max-height: 100px;
   }
 
   .carousel-caption h2 {
@@ -466,6 +467,7 @@ h2 {
     font-family: "poppins";
     font-weight: 600;
     text-shadow: none;
+   
   }
 
   .carousel-caption p {
@@ -587,7 +589,10 @@ h2 {
 .fs-20 {
     font-size: 20px;
 }
-
+.bener2 .box{
+  min-height: 235px;
+}
+/* .carousel-caption */
 @media (max-width: 768px) {
   .navbar-toggle {
     color:#666;
@@ -625,6 +630,10 @@ h2 {
 
   section.homePage {
     background-size: cover !important;
+    /* padding-bottom: 10px; */
+  }
+  .carousel-caption{
+    max-height: 100%;
   }
 
   .homePage h2.keterangan{
@@ -641,4 +650,29 @@ h2 {
     min-width: 100% !important;
     margin-top: 0;
   }
+  .img-homepage{
+    padding-bottom: 10px !important;
+  }
+  .bener h2.text1{
+    margin-top: 150px !important;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .bener h2{
+    margin-top: 0;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .info-img{
+    background-size: cover;
+  }
+  .info-img .box-body img{
+    border-radius: 20px;
+    /* border-top-left-radius: 20px !important; */
+    /* border-top-right-radius: 20px !important; */
+  }
+  .bener2 h3{
+font-size: 24px !important;
+  }
+ 
 }
