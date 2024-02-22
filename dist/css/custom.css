@@ -652,9 +652,10 @@ section.features {
   }
 
   .homePage h2.keterangan {
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+    font-size: 20px !important;
   }
 
   .homePage p.text-slider {
@@ -699,6 +700,15 @@ section.features {
   }
   .text-visimisi{
     font-size: 24px;
+  }
+  .carousel-control.right{
+    right: 0;
+  }
+  .carousel-control.left{
+    left: 0;
+  }
+  .carousel-caption .btn-home-outline{
+    width: 100%;
   }
 
 }
